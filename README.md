@@ -47,10 +47,7 @@ The wiring follows the logic defined in the firmware and hardware summary:
 The robot utilizes a PID (Proportional-Integral-Derivative) controller.
 * **Input:** Current Tilt Angle (Pitch) from BNO055.
 * **Setpoint:** $0^{\circ}$ (Perfectly upright).
-* **Algorithm:**
-   $$
-   Output = K_p \cdot Error + K_i \cdot \int Error \, dt + K_d \cdot \frac{d(Error)}{dt}
-   $$
+*  **Algorithm:** $\text{Output} = K_p \cdot \text{Error} + K_i \cdot \int \text{Error} \cdot dt + K_d \cdot \frac{d(\text{Error})}{dt}$
 * **Output:** Motor speed and direction via PWM.
 
 ## Installation & Execution
