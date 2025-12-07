@@ -74,3 +74,5 @@ The PID values can be tuned in real-time via the Serial Monitor.
 
 ## Safety Features
 * **Safe Angle Stop:** If the robot tilts beyond 45 degrees, the motors will automatically shut off to prevent damage.
+## Gallery
+[📂 Click here to view the Project Gallery](media/)
